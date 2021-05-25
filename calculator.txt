@@ -1,0 +1,42 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float a,b,c;
+    int choice;
+    printf("\n1.addition");
+    printf("\n2.subtraction");
+    printf("\n3.division");
+    printf("\n4.multiplication\n");
+    
+    
+    printf("enter a choice");
+    scanf("%d",&choice);
+ switch(choice){
+    
+    case 1: printf("enter a two number");
+            scanf("%f%f",&a,&b);
+            c=a+b;
+            printf("answer is %f",c);
+            break;
+    case 2: printf("enter a two number");
+            scanf("%f%f",&a,&b); 
+            c=a-b;
+            printf("answer is %f",c);
+            break;
+     case 3:printf("enter a two number");
+            scanf("%f%f",&a,&b);
+            c=a/b;
+            printf("answer is %f",c);
+            break;
+    case 4:printf("enter a two number");
+           scanf("%f%f",&a,&b);
+           c=a*b;
+           printf("answer is %f",c);
+           break;
+ }
+     
+     
+     
+   
+}
